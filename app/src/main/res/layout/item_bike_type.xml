@@ -4,10 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/bike_text"
+
+    <ImageButton
+        android:id="@+id/item_bike_type_image_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="bike"
-        android:textSize="30sp" />
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent" />
+
+
 </LinearLayout>

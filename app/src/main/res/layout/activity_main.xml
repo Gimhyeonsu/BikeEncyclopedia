@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ex.bikeencyclopediaapplication.MainActivity">
+    tools:context="com.ex.bikeencyclopediaapplication.Main_Activity">
 
 
     <LinearLayout
@@ -27,6 +27,7 @@
             android:orientation="vertical">
 
             <Button
+                android:onClick="onClick"
                 android:id="@+id/bike_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -36,6 +37,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:onClick="onClick"
                 android:id="@+id/w_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -45,6 +47,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:onClick="onClick"
                 android:id="@+id/p_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -54,6 +57,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:onClick="onClick"
                 android:id="@+id/e_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -63,6 +67,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:onClick="onClick"
                 android:id="@+id/a_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

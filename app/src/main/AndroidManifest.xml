@@ -8,14 +8,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".Bike_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bike_Type_Activity" />
+        <activity android:name=".Brand_Activity" />
+        <activity android:name=".SamCheonRi_Activity" />
+        <activity android:name=".Specialized_Activity" />
+        <activity android:name=".Road_Bike_Menu_Activity"></activity>
     </application>
 
 </manifest>
