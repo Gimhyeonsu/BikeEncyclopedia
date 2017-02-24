@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 import com.ex.bikeencyclopediaapplication.R;
 
-
-public class Samcheonri_Road_9_1_Activity extends AppCompatActivity implements View.OnTouchListener {
+public class Samcheonri_Road_9_1_Activity extends AppCompatActivity
+        implements View.OnTouchListener {
 
     private Matrix matrix = new Matrix();
     private Matrix savedMatrix = new Matrix();
@@ -31,13 +31,14 @@ public class Samcheonri_Road_9_1_Activity extends AppCompatActivity implements V
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_9_1_samcheonri_road);
 
-        ImageView view = (ImageView) findViewById(R.id.samcheonri_road_image);
-        view.setOnTouchListener(this);
+        ImageView samcheonri_road_image = (ImageView) findViewById(R.id.samcheonri_road_image);
+        samcheonri_road_image.setOnTouchListener(this);
     }
 
     public boolean onTouch(View v, MotionEvent event) {
 // handle touch events here
         ImageView view = (ImageView) v;
+
 
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
 

@@ -31,10 +31,9 @@ public class Samcheonri_Biketype_8_Activity extends AppCompatActivity implements
                 startActivity(samcheonri_road_button);
                 break;
 
-
-            case R.id.samcheonri_mtb_button:
+            case R.id.samcheonri_mtb_button :
                 Intent samcheonri_mtb_button = new Intent(Samcheonri_Biketype_8_Activity.this,
-                        Samcheonri_MTB_9_2_Activity.class);
+                        Samcheonri_Mtb_9_2_Activity.class);
                 startActivity(samcheonri_mtb_button);
                 break;
 
