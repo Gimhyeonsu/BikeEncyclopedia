@@ -31,6 +31,7 @@
         <activity android:name=".activity.Continent_5_Activity" />
         <activity android:name=".activity.Country_Menu_6_Activity" />
         <activity android:name=".activity.Samcheonri_Biketype_8_Activity" />
+        <activity android:name=".activity.Samcheonri_Road_9_1_Activity" />
     </application>
 
 </manifest>
