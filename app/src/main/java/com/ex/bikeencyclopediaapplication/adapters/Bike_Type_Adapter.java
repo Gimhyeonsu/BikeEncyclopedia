@@ -1,6 +1,7 @@
 package com.ex.bikeencyclopediaapplication.adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,14 +17,14 @@ import java.util.List;
  * Created by K on 2017-02-22.
  */
 
-public class Bike_Type_Adapters extends BaseAdapter {
-
-    private final List<Bike_Type_Model> mData;
+public class Bike_Type_Adapter extends BaseAdapter {
+    private static final String TAG = Bike_Type_Adapter.class.getSimpleName();
+    private List<Bike_Type_Model> mData;
     private Context mContext;
 
-    public Bike_Type_Adapters(List<Bike_Type_Model> mData, Context mContext) {
-        this.mData = mData;
-        this.mContext = mContext;
+    public Bike_Type_Adapter(Context Context,List<Bike_Type_Model> Data) {
+        this.mContext = Context;
+        this.mData = Data;
     }
 
     @Override
@@ -53,10 +54,9 @@ public class Bike_Type_Adapters extends BaseAdapter {
             convertView = LayoutInflater.from(mContext)
                     .inflate(R.layout.item_bike_type, parent, false);
 
-            /*ImageButton imageButton = (ImageButton) convertView.findViewById(R.id.item_bike_type_image_button);*/
-            ImageView imageButton = (ImageView) convertView.findViewById(R.id.item_bike_type_image_button);
-
-            viewHolder.bikeTypeImageButton = imageButton;
+            //            ImageView imageButton = (ImageView) convertView.findViewById(R.id.item_bike_type_image_button);
+            ImageView bikeTypeImageButton = (ImageView) convertView.findViewById(R.id.item_bike_type_image_button);
+            viewHolder.bikeTypeImage = bikeTypeImageButton;
 
             convertView.setTag(viewHolder);
 
@@ -65,16 +65,17 @@ public class Bike_Type_Adapters extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
 
         }
+        Log.d(TAG, "getView: " + position);
 
         Bike_Type_Model bike_type_model = mData.get(position);
 
-        viewHolder.bikeTypeImageButton.setImageResource(bike_type_model.getImageButtonRes());
+        viewHolder.bikeTypeImage.setImageResource(bike_type_model.getImageButtonRes());
 
         return convertView;
     }
 
-    static class ViewHolder {
-        /*ImageButton*/ImageView bikeTypeImageButton;
+    private static class ViewHolder {
+        ImageView bikeTypeImage;
     }
 
 }

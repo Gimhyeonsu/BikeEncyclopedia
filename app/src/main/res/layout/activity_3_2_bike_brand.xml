@@ -9,22 +9,22 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ex.bikeencyclopediaapplication.Brand_Activity">
+    tools:context="com.ex.bikeencyclopediaapplication.activity.Bike_Brand_3_2Activity">
 
     <Button
-        android:onClick="onClick"
         android:id="@+id/specialized_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/specialized" />
+        android:background="@drawable/specialized"
+        android:onClick="onClick" />
 
 
     <Button
-        android:onClick="onClick"
         android:id="@+id/sam_cheon_ri_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/sam_cheon_ri" />
+        android:background="@drawable/samcheonri"
+        android:onClick="onClick" />
 
 
 </LinearLayout>

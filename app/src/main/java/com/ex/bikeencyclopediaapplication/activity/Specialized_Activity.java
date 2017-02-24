@@ -1,8 +1,10 @@
-package com.ex.bikeencyclopediaapplication;
+package com.ex.bikeencyclopediaapplication.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.ex.bikeencyclopediaapplication.R;
 
 public class Specialized_Activity extends AppCompatActivity implements View.OnClickListener {
 

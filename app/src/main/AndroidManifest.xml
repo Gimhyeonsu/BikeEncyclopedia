@@ -8,25 +8,29 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main_Activity">
+        <activity android:name=".activity.Main_1_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bike_Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".activity.Bike_2_Activity" />
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Bike_Type_Activity" />
-        <activity android:name=".Brand_Activity" />
-        <activity android:name=".SamCheonRi_Activity" />
-        <activity android:name=".Specialized_Activity" />
-        <activity android:name=".Road_Bike_Menu_Activity"></activity>
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".activity.Bike_Type_3_1_Activity" />
+        <activity android:name=".activity.Bike_Brand_3_2Activity" />
+        <activity android:name=".activity.Specialized_Activity" />
+        <activity android:name=".activity.Road_Bike_Menu_4_Activity" />
+        <activity android:name=".activity.Korea_7_Activity" />
+        <activity android:name=".activity.Continent_5_Activity" />
+        <activity android:name=".activity.Country_Menu_6_Activity" />
+        <activity android:name=".activity.Samcheonri_Biketype_8_Activity" />
     </application>
 
 </manifest>

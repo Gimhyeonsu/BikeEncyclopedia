@@ -9,8 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ex.bikeencyclopediaapplication.Main_Activity">
-
+    tools:context="com.ex.bikeencyclopediaapplication.activity.Main_1_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,51 +26,51 @@
             android:orientation="vertical">
 
             <Button
-                android:onClick="onClick"
                 android:id="@+id/bike_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="바이크"
                 android:textColor="#006aff"
                 android:textStyle="bold" />
 
             <Button
-                android:onClick="onClick"
                 android:id="@+id/w_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="웨어"
                 android:textColor="#006aff"
                 android:textStyle="bold" />
 
             <Button
-                android:onClick="onClick"
                 android:id="@+id/p_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="프로텍션 기어"
                 android:textColor="#006aff"
                 android:textStyle="bold" />
 
             <Button
-                android:onClick="onClick"
                 android:id="@+id/e_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="부속 기기"
                 android:textColor="#006aff"
                 android:textStyle="bold" />
 
             <Button
-                android:onClick="onClick"
                 android:id="@+id/a_button"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="악세사리"
                 android:textColor="#006aff"
                 android:textStyle="bold" />
