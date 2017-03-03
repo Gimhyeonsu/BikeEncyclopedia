@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ex.bikeencyclopediaapplication.activity.Country_Menu_6_Activity">
+    tools:context="com.ex.bikeencyclopediaapplication.activity.Country_Menu_3_1_Activity">
 
 
     <LinearLayout
@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:layout_weight="1"
-            android:padding="12dp"
             android:background="@drawable/taegeukgi_image"
+            android:padding="12dp"
             android:textSize="30sp"
             android:textStyle="bold" />
 

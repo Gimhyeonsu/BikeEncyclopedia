@@ -7,25 +7,25 @@ import android.view.View;
 
 import com.ex.bikeencyclopediaapplication.R;
 
-public class Continent_5_Activity extends AppCompatActivity implements View.OnClickListener {
+public class Jersey_3_Activity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_5_continent);
+        setContentView(R.layout.activity_3_1_jersey);
 
-        findViewById(R.id.asia_button).setOnClickListener(this);
-
+        findViewById(R.id.santini_button).setOnClickListener(this);
     }
+
 
     @Override
     public void onClick(View view) {
+
         switch (view.getId()) {
-            case R.id.asia_button :
-                Intent asia_button = new Intent(Continent_5_Activity.this, Country_Menu_6_Activity.class);
-                startActivity(asia_button);
+            case R.id.santini_button:
+                Intent santini = new Intent(this, Santini_4_Activity.class);
+                startActivity(santini);
                 break;
         }
-
     }
 }

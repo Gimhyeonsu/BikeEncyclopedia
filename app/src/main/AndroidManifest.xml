@@ -6,32 +6,52 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Main_1_Activity">
+
+        <activity
+            android:name=".activity.Main_1_Activity"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.Bike_2_Activity" />
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-        <activity android:name=".activity.Bike_Type_3_1_Activity" />
-        <activity android:name=".activity.Bike_Brand_3_2Activity" />
-        <activity android:name=".activity.Specialized_Activity" />
-        <activity android:name=".activity.Road_Bike_Menu_4_Activity" />
-        <activity android:name=".activity.Korea_7_Activity" />
-        <activity android:name=".activity.Continent_5_Activity" />
-        <activity android:name=".activity.Country_Menu_6_Activity" />
-        <activity android:name=".activity.Samcheonri_Biketype_8_Activity" />
-        <activity android:name=".activity.Samcheonri_Road_9_1_Activity" />
+        <activity
+            android:name=".activity.Bike_1_1_Activity"
+            android:screenOrientation="portrait" />
+        <!--<intent-filter> -->
+        <!--<action android:name="android.intent.action.MAIN" /> -->
+        <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+        <!--</intent-filter> -->
+        <!--</activity> -->
+        <activity
+            android:name=".activity.Bike_Type_1_1_1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Bike_Brand_4_1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Specialized_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Korea_7_1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Continent_1_1_2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Country_Menu_3_1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Samcheonri_Biketype_8_1_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Samcheonri_Road_9_1_Activity"
+            android:screenOrientation="portrait" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -40,7 +60,21 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".activity.Samcheonri_Mtb_9_2_Activity"></activity>
+        <activity
+            android:name=".activity.Samcheonri_Mtb_9_2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Wear_1_2_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Jersey_3_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Santini_4_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ViewPagerActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

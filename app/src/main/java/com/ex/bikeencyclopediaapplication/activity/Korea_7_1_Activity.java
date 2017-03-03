@@ -7,24 +7,23 @@ import android.view.View;
 
 import com.ex.bikeencyclopediaapplication.R;
 
-public class Road_Bike_Menu_4_Activity extends AppCompatActivity implements View.OnClickListener {
-
+public class Korea_7_1_Activity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_4_road_bike_menu);
+        setContentView(R.layout.activity_7_1_korea);
 
-        findViewById(R.id.country_button).setOnClickListener(this);
+        findViewById(R.id.samcheonri_button).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
 
         switch (view.getId()) {
-            case R.id.country_button:
-                Intent country_button = new Intent(this, Continent_5_Activity.class);
-                startActivity(country_button);
+            case R.id.samcheonri_button:
+                Intent samcheonri_button = new Intent(Korea_7_1_Activity.this, Samcheonri_Biketype_8_1_Activity.class);
+                startActivity(samcheonri_button);
                 break;
         }
     }

@@ -10,10 +10,12 @@ import android.widget.ImageView;
 
 import com.ex.bikeencyclopediaapplication.R;
 
+/**
+ * Created by K on 2017-02-28.
+ */
+
 public class Samcheonri_Mtb_9_2_Activity extends AppCompatActivity
-        implements View.OnTouchListener {
-
-
+        implements View.OnTouchListener{
     private Matrix matrix = new Matrix();
     private Matrix savedMatrix = new Matrix();
     private static final int NONE = 0;
@@ -27,21 +29,18 @@ public class Samcheonri_Mtb_9_2_Activity extends AppCompatActivity
     private float newRot = 0f;
     private float[] lastEvent = null;
 
-
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_9_2_samcheonri_mtb);
+        setContentView(R.layout.activity_9_1_samcheonri_road);
 
-        ImageView samcheonri_mtb_imageview = (ImageView) findViewById(R.id.samcheonri_mtb_imageview);
-        samcheonri_mtb_imageview.setOnTouchListener(this);
-
+        ImageView samcheonri_road_image = (ImageView)
+                findViewById(R.id.samcheonri_road_image);
+        samcheonri_road_image.setOnTouchListener(this);
     }
 
-    @Override
     public boolean onTouch(View v, MotionEvent event) {
-
+// handle touch events here
         ImageView view = (ImageView) v;
 
 

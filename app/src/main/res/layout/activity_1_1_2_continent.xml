@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ex.bikeencyclopediaapplication.activity.Continent_5_Activity">
+    tools:context="com.ex.bikeencyclopediaapplication.activity.Continent_1_1_2_Activity">
 
 
     <LinearLayout
@@ -19,6 +19,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="#fff176"
             android:padding="12dp"
@@ -49,7 +50,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/north_merica_button"
+            android:id="@+id/north_america_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"

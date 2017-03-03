@@ -31,7 +31,8 @@ public class Samcheonri_Road_9_1_Activity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_9_1_samcheonri_road);
 
-        ImageView samcheonri_road_image = (ImageView) findViewById(R.id.samcheonri_road_image);
+        ImageView samcheonri_road_image = (ImageView)
+                findViewById(R.id.samcheonri_road_image);
         samcheonri_road_image.setOnTouchListener(this);
     }
 
